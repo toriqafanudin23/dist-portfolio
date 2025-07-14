@@ -1,104 +1,34 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/react-icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio | Toriq Afanudin</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Avan Freelance - Web Developer & React Specialist</title>
+
+    <!-- SEO META -->
+    <meta
+      name="description"
+      content="Avan Freelance adalah web developer spesialis React dan teknologi modern. Portofolio dan layanan freelance tersedia di sini."
+    />
+    <meta
+      name="keywords"
+      content="toriq, thoriq, avan, freelance, web developer, react, portofolio, jasa website, pesan website, pesan aplikasi, pesan aplikasi react"
+    />
+    <meta name="author" content="Avan Toriq" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Inter", sans-serif;
-      }
-    </style>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js@3.4.2/aframe/build/aframe-ar.min.js"></script>
+    <script type="module" crossorigin src="/assets/index-WzcI0gVm.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DyJLEW89.css">
   </head>
-  <body class="bg-gray-50 text-gray-800">
-    <!-- Hero -->
-    <section
-      class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-100 to-white"
-    >
-      <div class="text-center px-4">
-        <img
-          src="https://bxehantrfbyenzvyrfoc.supabase.co/storage/v1/object/public/merge-bucket//fotoku.jpg"
-          alt="Foto Profil"
-          class="mx-auto rounded-full w-32 h-32 shadow-lg mb-4 ring-4 ring-gray-200"
-        />
-        <h1 class="text-4xl md:text-5xl font-bold">Toriq Afanudin</h1>
-        <p class="text-gray-500 mt-2 text-lg">Fullstack Developer</p>
-        <div class="mt-4 flex flex-wrap justify-center gap-2">
-          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm"
-            >React</span
-          >
-          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm"
-            >Golang</span
-          >
-          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm"
-            >PostgreSQL</span
-          >
-        </div>
-        <div class="mt-6">
-          <a
-            href="#projects"
-            class="bg-gray-800 text-white px-6 py-2 rounded-xl hover:bg-gray-700 transition"
-            >Lihat Proyek</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <!-- Tentang Saya -->
-    <section class="py-16 bg-white" id="about">
-      <div class="max-w-3xl mx-auto px-4 text-center">
-        <h2 class="text-3xl font-semibold mb-4">Tentang Saya</h2>
-        <p class="text-gray-600 text-lg">
-          Saya adalah seorang Fullstack Developer yang senang membangun aplikasi
-          web dan mobile. Saya menguasai teknologi modern seperti React, Golang,
-          dan PostgreSQL untuk menghasilkan produk berkualitas tinggi.
-        </p>
-      </div>
-    </section>
-
-    <!-- Projects -->
-    <section class="py-16 bg-gray-100" id="projects">
-      <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-3xl font-semibold text-center mb-10">
-          Produk yang Saya Buat
-        </h2>
-        <div class="grid md:grid-cols-2 gap-6">
-          <!-- Card -->
-          <div
-            class="bg-white p-6 rounded-xl shadow hover:shadow-md transition"
-          >
-            <h3 class="text-xl font-semibold mb-2">Web App</h3>
-            <p class="text-gray-600">
-              Aplikasi berbasis web dengan performa tinggi, UI modern, dan
-              pengalaman pengguna yang baik.
-            </p>
-          </div>
-          <div
-            class="bg-white p-6 rounded-xl shadow hover:shadow-md transition"
-          >
-            <h3 class="text-xl font-semibold mb-2">Mobile App</h3>
-            <p class="text-gray-600">
-              Aplikasi mobile multiplatform yang responsif dan mudah digunakan,
-              dibangun dengan teknologi modern.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="py-8 text-center text-gray-500 bg-white border-t">
-      <p>© 2025 Toriq Afanudin. All rights reserved.</p>
-      <div class="flex justify-center gap-4 mt-2">
-        <a href="#" class="hover:text-gray-800">LinkedIn</a>
-        <a href="#" class="hover:text-gray-800">GitHub</a>
-        <a href="#" class="hover:text-gray-800">Instagram</a>
-      </div>
-    </footer>
+  <body class="inter-200">
+    <div id="root"></div>
   </body>
 </html>
